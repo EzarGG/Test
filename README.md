@@ -35,7 +35,7 @@ such as: vm.tiktok.com/... or vt.tiktok.com/...
 ```bash
 pkg update && pkg upgrade
 pkg install git python
-git clone https://github.com/AinxBOT/TikTools
+git clone https://github.com/EzarGG/Test
 cd TikTools
 pip install -r requirements.txt
 python run.py
