@@ -248,7 +248,7 @@ def menu():
            print(f"{F}CTRL C for stop")
            baris()
            while True:
-                countdown(10)
+                countdown(3)
                 info.addvl(data_panel,dump,"likes",last_likes)
            break
         elif pilih in ["03","3"]:
@@ -257,7 +257,7 @@ def menu():
            while True:
               countdown(3)
               info.earning(data_panel)
-              print(f"\r{D}Earning credits...",end=" "*10,flush=True)
+              print(f"\r{D}Earning credits...",end=" "*100,flush=True)
               print()
               info.mycredit(data_panel)
            baris()
